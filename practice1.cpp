@@ -2,18 +2,18 @@
 using namespace std;
 
 int main (){
-    char c;
-    cout << "Enter Character: ";
-    cin >> c;
-
-    if(c >= 65 &&  c <= 90 ){
-    cout << "Uppercase \n";
-
-    }else if (c >= 97 && c <= 122 ){
-        cout << "Lowercase \n";
-
-    }else{
-        cout << "Not identified\n";
+    int num;
+    cout << "Enter the number:- ";
+    cin >> num;
+    int i;
+    for(i=2;i<num;i++){
+        if(num%i==0){
+            cout << "This is not a prime number." << endl;
+            break;
+        }
     }
-
+    if(i==num){
+        cout << " This is a prime number." << endl;
+    }
+    return 0;
 }
