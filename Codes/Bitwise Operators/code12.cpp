@@ -6,8 +6,8 @@ int main(){
     cout << (a&b) << endl; // bitwise And
     cout << (a|b) << endl; // bitwise Or
     cout << (a^b) << endl; // bitwise Xor
-    cout << (a<<2) << endl; // bitwise left shift a<<i(number of times)
-    cout << (a>>2) << endl; // bitwise right shift a>>i(number of times)
-    
+    cout << (a<<2) << endl; // bitwise left shift a<<i(number of times)[ a= a * 2^i]
+    cout << (a>>2) << endl; // bitwise right shift a>>i(number of times)[ a = a /2^b ]
+
     return 0;
 }
